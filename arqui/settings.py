@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # Agregando aplicaciones independientes de Django
     'Login',
+    'example',
     'rest_framework',
     'rest_framework.authtoken',
 ]
@@ -135,7 +136,6 @@ except ImportError:
     pass
 
 if not DEBUG:
-    # -(!w4wx5fc34(gk703+u40_sctk-m406q^ibl)(f27t!snw45#
     SECRET_KEY = 'SECRET_KEY'
     DATABASES = {
         'default': {
