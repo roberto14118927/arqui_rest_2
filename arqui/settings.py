@@ -5,7 +5,7 @@
 # # gunicorn
 # # whitenoise
 # # python-decouple
-
+#-(!w4wx5fc34(gk703+u40_sctk-m406q^ibl)(f27t!snw45# llave app
 import os
 # Importaciones necesarios de heroku inicio
 from decouple import config
