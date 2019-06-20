@@ -1,11 +1,6 @@
 
-# Paqueterias a instalar
-# # pip install django-heroku
-# # dj-database-url
-# # gunicorn
-# # whitenoise
-# # python-decouple
-#-(!w4wx5fc34(gk703+u40_sctk-m406q^ibl)(f27t!snw45# llave app
+
+
 import os
 # Importaciones necesarios de heroku inicio
 from decouple import config
@@ -25,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
